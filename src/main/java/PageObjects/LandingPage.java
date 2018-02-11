@@ -13,6 +13,7 @@ public class LandingPage {
 	
 	{
 		this.driver = driver;
+		//this line is a must if you want to use the findby anotation
 		PageFactory.initElements(driver, this);
 	}
 	

@@ -1,0 +1,5 @@
+19:13:48.909 [main] ERROR resources.TestBase - pop up blocking the click element function
+19:14:00.154 [main] INFO  resources.TestBase - validating if the navigation bar is displayed
+19:49:34.235 [main] INFO  resources.TestBase - we are getting the url inside test not in before test for a reason
+19:49:42.011 [main] INFO  resources.TestBase - calling the getlongin fucntion from the page class
+19:49:44.598 [main] INFO  resources.TestBase - we are getting the url inside test not in before test for a reason

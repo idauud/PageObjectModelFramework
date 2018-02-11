@@ -1,0 +1,6 @@
+19:13:35.081 [main] INFO  resources.TestBase - calling the getlongin fucntion from the page class
+19:13:36.856 [main] INFO  resources.TestBase - we are getting the url inside test not in before test for a reason
+19:13:40.271 [main] INFO  resources.TestBase - calling the getlongin fucntion from the page class
+19:13:40.273 [main] FATAL resources.TestBase - killing the browser
+19:13:44.501 [main] INFO  resources.TestBase - initializing driver for title page
+19:13:48.907 [main] INFO  resources.TestBase - navigating to url 

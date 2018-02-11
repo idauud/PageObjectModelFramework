@@ -1,0 +1,7 @@
+21:13:53.546 [main] INFO  resources.TestBase - navigating to url 
+21:13:53.559 [main] ERROR resources.TestBase - pop up blocking the click element function
+21:13:53.654 [main] INFO  resources.TestBase - comparing the title page
+21:14:06.569 [main] INFO  resources.TestBase - validating if the navigation bar is displayed
+16:37:33.927 [main] INFO  resources.TestBase - initializing driver for title page
+16:37:38.645 [main] INFO  resources.TestBase - navigating to url 
+16:39:23.935 [main] INFO  resources.TestBase - initializing driver for title page

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46362" started-at="2018-02-10T08:49:23Z" finished-at="2018-02-10T08:50:09Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="25365" started-at="2018-02-10T08:49:23Z" finished-at="2018-02-10T08:49:48Z">
+      <class name="com.academyT.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.academyT.HomePageTest@17046283]" name="initialize" is-config="true" duration-ms="5437" started-at="2018-02-10T19:49:23Z" finished-at="2018-02-10T19:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.academyT.HomePageTest@17046283]" name="basePageNavigation" duration-ms="13232" started-at="2018-02-10T19:49:28Z" data-provider="getData" finished-at="2018-02-10T19:49:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1@ga.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jhgvcv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[resstrected user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.academyT.HomePageTest@17046283]" name="basePageNavigation" duration-ms="5921" started-at="2018-02-10T19:49:42Z" data-provider="getData" finished-at="2018-02-10T19:49:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2@ga.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jhgvdddcv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unresstrected user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.academyT.HomePageTest@17046283]" name="teardown" is-config="true" duration-ms="744" started-at="2018-02-10T19:49:47Z" finished-at="2018-02-10T19:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.academyT.HomePageTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="10594" started-at="2018-02-10T08:49:48Z" finished-at="2018-02-10T08:49:59Z">
+      <class name="com.academyT.ValidateTitleTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.academyT.ValidateTitleTest@31d7b7bf]" name="initialize" is-config="true" duration-ms="10419" started-at="2018-02-10T19:49:48Z" finished-at="2018-02-10T19:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validatingHomePageTitle()[pri:0, instance:com.academyT.ValidateTitleTest@31d7b7bf]" name="validatingHomePageTitle" duration-ms="95" started-at="2018-02-10T19:49:59Z" finished-at="2018-02-10T19:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.academyT.ValidateTitleTest@31d7b7bf]" name="teardown" is-config="true" duration-ms="78" started-at="2018-02-10T19:49:59Z" finished-at="2018-02-10T19:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.academyT.ValidateTitleTest -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="10367" started-at="2018-02-10T08:49:59Z" finished-at="2018-02-10T08:50:09Z">
+      <class name="com.academyT.navigationMenuTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.academyT.navigationMenuTest@3f197a46]" name="initialize" is-config="true" duration-ms="8198" started-at="2018-02-10T19:49:59Z" finished-at="2018-02-10T19:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigationMenuValidationTest()[pri:0, instance:com.academyT.navigationMenuTest@3f197a46]" name="navigationMenuValidationTest" duration-ms="72" started-at="2018-02-10T19:50:07Z" finished-at="2018-02-10T19:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationMenuValidationTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.academyT.navigationMenuTest@3f197a46]" name="teardown" is-config="true" duration-ms="2097" started-at="2018-02-10T19:50:07Z" finished-at="2018-02-10T19:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.academyT.navigationMenuTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

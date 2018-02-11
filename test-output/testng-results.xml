@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10878" started-at="2018-02-08T05:39:19Z" finished-at="2018-02-08T05:39:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10878" started-at="2018-02-08T05:39:19Z" finished-at="2018-02-08T05:39:30Z">
+      <class name="com.academyT.ValidateTitleTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.academyT.ValidateTitleTest@4fb0f2b9]" name="initialize" is-config="true" duration-ms="8722" started-at="2018-02-08T16:39:19Z" finished-at="2018-02-08T16:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validatingHomePageTitle()[pri:0, instance:com.academyT.ValidateTitleTest@4fb0f2b9]" name="validatingHomePageTitle" duration-ms="9" started-at="2018-02-08T16:39:28Z" finished-at="2018-02-08T16:39:28Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+	LandingPage cannot be resolved to a type
+	LandingPage cannot be resolved to a type
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+	LandingPage cannot be resolved to a type
+	LandingPage cannot be resolved to a type
+
+	at com.academyT.ValidateTitleTest.validatingHomePageTitle(ValidateTitleTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.academyT.ValidateTitleTest@4fb0f2b9]" name="teardown" is-config="true" duration-ms="2111" started-at="2018-02-08T16:39:28Z" finished-at="2018-02-08T16:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.academyT.ValidateTitleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

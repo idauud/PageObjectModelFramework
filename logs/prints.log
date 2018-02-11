@@ -1,0 +1,7 @@
+19:49:47.920 [main] INFO  resources.TestBase - calling the getlongin fucntion from the page class
+19:49:47.935 [main] FATAL resources.TestBase - killing the browser
+19:49:52.456 [main] INFO  resources.TestBase - initializing driver for title page
+19:49:59.123 [main] INFO  resources.TestBase - navigating to url 
+19:49:59.125 [main] ERROR resources.TestBase - pop up blocking the click element function
+19:49:59.219 [main] INFO  resources.TestBase - comparing the title page
+19:50:07.579 [main] INFO  resources.TestBase - validating if the navigation bar is displayed

@@ -15,6 +15,7 @@ import resources.TestBase;
 public class HomePageTest extends resources.TestBase
 
 {	public static Logger log = LogManager.getLogger(TestBase.class.getName());
+// this line i ma writing for the git to check if it is added in the git hub
 
 	@BeforeTest
 	public void initialize() throws IOException
@@ -37,12 +38,9 @@ public class HomePageTest extends resources.TestBase
 
 		driver.get("http://qaclickacademy.com");
 		log.info("we are getting the url inside test not in before test for a reason");
-//		try {
 //			driver.findElement(By.xpath("(//div[@class='sumome-react-wysiwyg-move-handle']/div/button)[2]"))
 //					.click();
-//		} catch (NoSuchElementException e) {
-//			
-//		}
+
 		LandingPage lp = new LandingPage(driver);
 		lp.getLogin().click();
 
